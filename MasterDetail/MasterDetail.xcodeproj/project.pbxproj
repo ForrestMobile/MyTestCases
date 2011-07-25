@@ -19,6 +19,11 @@
 		A85FC4A713DD39A2005EDF5C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85FC4A613DD39A2005EDF5C /* DetailViewController.m */; };
 		A85FC4AA13DD39A2005EDF5C /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A85FC4A813DD39A2005EDF5C /* DetailView.xib */; };
 		A85FC4AD13DD39A2005EDF5C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85FC4AC13DD39A2005EDF5C /* RootViewController.m */; };
+		A85FC4F513DD4056005EDF5C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A85FC4F313DD4056005EDF5C /* JSONKit.m */; };
+		A85FC4F613DD4056005EDF5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A85FC4F413DD4056005EDF5C /* README.md */; };
+		A865A01F13DD4F77006F8A3C /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = A865A01E13DD4F77006F8A3C /* test.json */; };
+		A865A03213DD7E3C006F8A3C /* TestItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A865A03113DD7E3C006F8A3C /* TestItemsViewController.m */; };
+		A865A03513DD81E7006F8A3C /* JSONRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = A865A03413DD81E7006F8A3C /* JSONRunner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		A85FC4AB13DD39A2005EDF5C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A85FC4AC13DD39A2005EDF5C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalApp.xcodeproj; path = UniversalApp/UniversalApp.xcodeproj; sourceTree = "<group>"; };
+		A85FC4F213DD4056005EDF5C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A85FC4F313DD4056005EDF5C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		A85FC4F413DD4056005EDF5C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A865A01E13DD4F77006F8A3C /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.json; sourceTree = "<group>"; };
+		A865A03013DD7E3C006F8A3C /* TestItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestItemsViewController.h; sourceTree = "<group>"; };
+		A865A03113DD7E3C006F8A3C /* TestItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItemsViewController.m; sourceTree = "<group>"; };
+		A865A03313DD81E7006F8A3C /* JSONRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRunner.h; sourceTree = "<group>"; };
+		A865A03413DD81E7006F8A3C /* JSONRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRunner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +84,7 @@
 		A85FC47C13DD39A2005EDF5C = {
 			isa = PBXGroup;
 			children = (
+				A85FC4F713DD405C005EDF5C /* JSONKit */,
 				A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */,
 				A85FC49313DD39A2005EDF5C /* MasterDetail */,
 				A85FC48A13DD39A2005EDF5C /* Frameworks */,
@@ -106,10 +120,14 @@
 				A85FC4A513DD39A2005EDF5C /* DetailViewController.h */,
 				A85FC4A613DD39A2005EDF5C /* DetailViewController.m */,
 				A85FC4A813DD39A2005EDF5C /* DetailView.xib */,
+				A865A03013DD7E3C006F8A3C /* TestItemsViewController.h */,
+				A865A03113DD7E3C006F8A3C /* TestItemsViewController.m */,
 				A85FC4AB13DD39A2005EDF5C /* RootViewController.h */,
 				A85FC4AC13DD39A2005EDF5C /* RootViewController.m */,
 				A85FC49F13DD39A2005EDF5C /* MasterDetail.xcdatamodeld */,
 				A85FC49413DD39A2005EDF5C /* Supporting Files */,
+				A865A03313DD81E7006F8A3C /* JSONRunner.h */,
+				A865A03413DD81E7006F8A3C /* JSONRunner.m */,
 			);
 			path = MasterDetail;
 			sourceTree = "<group>";
@@ -121,6 +139,7 @@
 				A85FC49613DD39A2005EDF5C /* InfoPlist.strings */,
 				A85FC49913DD39A2005EDF5C /* MasterDetail-Prefix.pch */,
 				A85FC49A13DD39A2005EDF5C /* main.m */,
+				A865A01E13DD4F77006F8A3C /* test.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,6 +150,16 @@
 				A85FC4F113DD39C8005EDF5C /* UniversalApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A85FC4F713DD405C005EDF5C /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				A85FC4F213DD4056005EDF5C /* JSONKit.h */,
+				A85FC4F313DD4056005EDF5C /* JSONKit.m */,
+				A85FC4F413DD4056005EDF5C /* README.md */,
+			);
+			name = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +228,8 @@
 				A85FC49813DD39A2005EDF5C /* InfoPlist.strings in Resources */,
 				A85FC4A413DD39A2005EDF5C /* MainWindow.xib in Resources */,
 				A85FC4AA13DD39A2005EDF5C /* DetailView.xib in Resources */,
+				A85FC4F613DD4056005EDF5C /* README.md in Resources */,
+				A865A01F13DD4F77006F8A3C /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +245,9 @@
 				A85FC4A113DD39A2005EDF5C /* MasterDetail.xcdatamodeld in Sources */,
 				A85FC4A713DD39A2005EDF5C /* DetailViewController.m in Sources */,
 				A85FC4AD13DD39A2005EDF5C /* RootViewController.m in Sources */,
+				A85FC4F513DD4056005EDF5C /* JSONKit.m in Sources */,
+				A865A03213DD7E3C006F8A3C /* TestItemsViewController.m in Sources */,
+				A865A03513DD81E7006F8A3C /* JSONRunner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +362,7 @@
 				A85FC4B213DD39A2005EDF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

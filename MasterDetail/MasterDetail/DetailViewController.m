@@ -7,8 +7,9 @@
 //
 
 #import "DetailViewController.h"
-
+#import "TestItemsViewController.h"
 #import "RootViewController.h"
+#import "JSONKit.h"
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -144,7 +145,20 @@
 	[self.rootViewController insertNewObject:sender];	
 }
 
-- (IBAction)testPlist:(id)sender{
+#pragma mark - Test JSONKit 
 
+
+
+- (IBAction)testJSONKit:(id)sender{
+    
+    TestItemsViewController *itemsVC = [[TestItemsViewController alloc] initWithStyle:UITableViewStylePlain];
+    UIPopoverController *popCtr = [[UIPopoverController alloc] initWithContentViewController:itemsVC];  // leaks 
+    [itemsVC release];
+    
+    popCtr.passthroughViews = [NSArray  arrayWithObject:self.view];
+    popCtr.popoverContentSize = CGSizeMake(320, 480);
+    [popCtr presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
+
+
 @end

@@ -86,7 +86,7 @@
 								<int key="IBUISystemItemIdentifier">5</int>
 							</object>
 							<object class="IBUIBarButtonItem" id="356684035">
-								<string key="IBUITitle">TestPlist</string>
+								<string key="IBUITitle">JSON TestCases</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<int key="IBUIStyle">1</int>
 								<reference key="IBUIToolbar" ref="853814075"/>
@@ -154,11 +154,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">testPlist:</string>
+						<string key="label">testJSONKit:</string>
 						<reference key="source" ref="356684035"/>
 						<reference key="destination" ref="841351856"/>
 					</object>
-					<int key="connectionID">72</int>
+					<int key="connectionID">73</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -271,7 +271,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">72</int>
+			<int key="maxID">73</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -284,7 +284,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>insertNewObject:</string>
-							<string>testPlist:</string>
+							<string>testJSONKit:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -297,7 +297,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>insertNewObject:</string>
-							<string>testPlist:</string>
+							<string>testJSONKit:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -306,7 +306,7 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">testPlist:</string>
+								<string key="name">testJSONKit:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>

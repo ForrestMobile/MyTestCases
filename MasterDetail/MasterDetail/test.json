@@ -1,0 +1,24 @@
+[
+{
+"name": "Guitar Standard Tuning",
+"comment": "EADGBE using 12-TET tuning",
+"presets": {
+"E2": "82.41",
+"A2": "110.00",
+"D3": "146.83",
+"G3": "196.00",
+"B3": "246.94",
+"E4": "329.63"
+}
+},
+{
+"name": "Bass Guitar Standard Tuning",
+"comment": "EADG using 12-TET tuning",
+"presets": {
+"E1": "41.204",
+"A1": "55.000",
+"D2": "73.416",
+"G2": "97.999"
+}
+}
+]
