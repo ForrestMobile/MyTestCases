@@ -24,17 +24,12 @@
 		A865A01F13DD4F77006F8A3C /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = A865A01E13DD4F77006F8A3C /* test.json */; };
 		A865A03213DD7E3C006F8A3C /* TestItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A865A03113DD7E3C006F8A3C /* TestItemsViewController.m */; };
 		A865A03513DD81E7006F8A3C /* JSONRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = A865A03413DD81E7006F8A3C /* JSONRunner.m */; };
+		A8C25A4C13E0220D00332891 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C25A4B13E0220D00332891 /* MediaPlayer.framework */; };
+		A8C25A5113E0227C00332891 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A8C25A5013E0227C00332891 /* 1.mp4 */; };
+		A8C25A5413E0232900332891 /* CustomMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C25A5313E0232900332891 /* CustomMoviePlayerViewController.m */; };
+		A8C25A5613E026C500332891 /* race.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A8C25A5513E026C500332891 /* race.mp4 */; };
+		A8C25A5E13E027D000332891 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = A8C25A5D13E027D000332891 /* Video */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A85FC4F013DD39C8005EDF5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A85FC4BE13DD39C6005EDF5C;
-			remoteInfo = UniversalApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A85FC48713DD39A2005EDF5C /* MasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +50,6 @@
 		A85FC4A913DD39A2005EDF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
 		A85FC4AB13DD39A2005EDF5C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		A85FC4AC13DD39A2005EDF5C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalApp.xcodeproj; path = UniversalApp/UniversalApp.xcodeproj; sourceTree = "<group>"; };
 		A85FC4F213DD4056005EDF5C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		A85FC4F313DD4056005EDF5C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		A85FC4F413DD4056005EDF5C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -64,6 +58,12 @@
 		A865A03113DD7E3C006F8A3C /* TestItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItemsViewController.m; sourceTree = "<group>"; };
 		A865A03313DD81E7006F8A3C /* JSONRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRunner.h; sourceTree = "<group>"; };
 		A865A03413DD81E7006F8A3C /* JSONRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRunner.m; sourceTree = "<group>"; };
+		A8C25A4B13E0220D00332891 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A8C25A5013E0227C00332891 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.mp4; path = ../1.mp4; sourceTree = "<group>"; };
+		A8C25A5213E0232900332891 /* CustomMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMoviePlayerViewController.h; sourceTree = "<group>"; };
+		A8C25A5313E0232900332891 /* CustomMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMoviePlayerViewController.m; sourceTree = "<group>"; };
+		A8C25A5513E026C500332891 /* race.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = race.mp4; path = ../race.mp4; sourceTree = "<group>"; };
+		A8C25A5D13E027D000332891 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C25A4C13E0220D00332891 /* MediaPlayer.framework in Frameworks */,
 				A85FC48C13DD39A2005EDF5C /* UIKit.framework in Frameworks */,
 				A85FC48E13DD39A2005EDF5C /* Foundation.framework in Frameworks */,
 				A85FC49013DD39A2005EDF5C /* CoreGraphics.framework in Frameworks */,
@@ -84,8 +85,9 @@
 		A85FC47C13DD39A2005EDF5C = {
 			isa = PBXGroup;
 			children = (
+				A8C25A5D13E027D000332891 /* Video */,
+				A8C25A4B13E0220D00332891 /* MediaPlayer.framework */,
 				A85FC4F713DD405C005EDF5C /* JSONKit */,
-				A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */,
 				A85FC49313DD39A2005EDF5C /* MasterDetail */,
 				A85FC48A13DD39A2005EDF5C /* Frameworks */,
 				A85FC48813DD39A2005EDF5C /* Products */,
@@ -114,6 +116,8 @@
 		A85FC49313DD39A2005EDF5C /* MasterDetail */ = {
 			isa = PBXGroup;
 			children = (
+				A8C25A5213E0232900332891 /* CustomMoviePlayerViewController.h */,
+				A8C25A5313E0232900332891 /* CustomMoviePlayerViewController.m */,
 				A85FC49C13DD39A2005EDF5C /* MasterDetailAppDelegate.h */,
 				A85FC49D13DD39A2005EDF5C /* MasterDetailAppDelegate.m */,
 				A85FC4A213DD39A2005EDF5C /* MainWindow.xib */,
@@ -135,6 +139,8 @@
 		A85FC49413DD39A2005EDF5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8C25A5513E026C500332891 /* race.mp4 */,
+				A8C25A5013E0227C00332891 /* 1.mp4 */,
 				A85FC49513DD39A2005EDF5C /* MasterDetail-Info.plist */,
 				A85FC49613DD39A2005EDF5C /* InfoPlist.strings */,
 				A85FC49913DD39A2005EDF5C /* MasterDetail-Prefix.pch */,
@@ -142,14 +148,6 @@
 				A865A01E13DD4F77006F8A3C /* test.json */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A85FC4ED13DD39C7005EDF5C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A85FC4F113DD39C8005EDF5C /* UniversalApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A85FC4F713DD405C005EDF5C /* JSONKit */ = {
@@ -197,28 +195,12 @@
 			mainGroup = A85FC47C13DD39A2005EDF5C;
 			productRefGroup = A85FC48813DD39A2005EDF5C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A85FC4ED13DD39C7005EDF5C /* Products */;
-					ProjectRef = A85FC4EC13DD39C7005EDF5C /* UniversalApp.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A85FC48613DD39A2005EDF5C /* MasterDetail */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A85FC4F113DD39C8005EDF5C /* UniversalApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = UniversalApp.app;
-			remoteRef = A85FC4F013DD39C8005EDF5C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A85FC48513DD39A2005EDF5C /* Resources */ = {
@@ -230,6 +212,9 @@
 				A85FC4AA13DD39A2005EDF5C /* DetailView.xib in Resources */,
 				A85FC4F613DD4056005EDF5C /* README.md in Resources */,
 				A865A01F13DD4F77006F8A3C /* test.json in Resources */,
+				A8C25A5113E0227C00332891 /* 1.mp4 in Resources */,
+				A8C25A5613E026C500332891 /* race.mp4 in Resources */,
+				A8C25A5E13E027D000332891 /* Video in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +233,7 @@
 				A85FC4F513DD4056005EDF5C /* JSONKit.m in Sources */,
 				A865A03213DD7E3C006F8A3C /* TestItemsViewController.m in Sources */,
 				A865A03513DD81E7006F8A3C /* JSONRunner.m in Sources */,
+				A8C25A5413E0232900332891 /* CustomMoviePlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,5 +27,6 @@
 
 - (IBAction)insertNewObject:(id)sender;
 - (IBAction)testJSONKit:(id)sender;
+- (IBAction)testPlayVideo:(id)sender;
 
 @end

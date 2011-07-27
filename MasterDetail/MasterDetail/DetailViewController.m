@@ -10,6 +10,8 @@
 #import "TestItemsViewController.h"
 #import "RootViewController.h"
 #import "JSONKit.h"
+#import "CustomMoviePlayerViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -160,5 +162,22 @@
     [popCtr presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
+- (IBAction)testPlayVideo:(id)sender{
+    
+    NSString *localPath = [[NSBundle mainBundle] pathForResource:@"1.1 Scene 4_s" ofType:@"mp4" inDirectory:@"Video/Test 1"];
+    
+    NSString *path1 = @"1.mp4";
+    NSURL *videoURL = [NSURL fileURLWithPath:localPath];
+    NSLog(@"videoURL %@",videoURL);
+    
+    MPMoviePlayerController *player = [[MPMoviePlayerController alloc] init];
+    player.contentURL = videoURL;
+    player.view.frame = self.view.bounds; //CGRectMake(100, 300, 500, 300);
+    player.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:player.view];
+    [player play];
+    
+    
 
+}
 @end
